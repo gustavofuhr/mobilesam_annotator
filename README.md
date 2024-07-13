@@ -1,13 +1,13 @@
 # MobileSAM Annotator
-A blazing fast (and simple) annotator tool using SAM (Segment Anything Models)
+A blazing fast (and simple) annotator tool using SAM (Segment Anything Models) using the awesome [MobileSAM](https://github.com/ChaoningZhang/MobileSAM).
 
 ## `mobilesam_dir_single_point.py`
 
-This script take all the images inside a folder and request a single point from the user to segment the desired object (single one per image). It's quite useful for annotating a bunch of images quickly. Is based on the awesome [MobileSAM](https://github.com/ChaoningZhang/MobileSAM).
+This script take all the images inside a folder and request a single point from the user to segment the desired object (single one per image).
 
 ### What it looks like?
 
-
+![How easy is this?](mobilesam_annotator_sample.gif)
 
 
 ### Requirements:
@@ -63,8 +63,9 @@ If your object is centralized in all images, you don't need to click anything, j
 
 
 ### TODO:
-- 
-
+- Convert masks to bounding boxes annotations, specially in the [COCO format](https://detectron2.readthedocs.io/en/latest/tutorials/datasets.html);
+- Decouple interface code;
+- Make possible to click several times and for new classes;
 
 ### Acknowledges
 
