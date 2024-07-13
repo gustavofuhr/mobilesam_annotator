@@ -69,4 +69,4 @@ If your object is centralized in all images, you don't need to click anything, j
 
 ### Acknowledges
 
-[MobileSAM](https://github.com/ChaoningZhang/MobileSAM) made it possible to really use SAM for annotation, since it's incredibly accurate for its speed.
+[MobileSAM](https://github.com/ChaoningZhang/MobileSAM) made it possible to really use SAM for annotation, since it's incredibly accurate for its speed (it runs at 250ms per image in my laptop!).
